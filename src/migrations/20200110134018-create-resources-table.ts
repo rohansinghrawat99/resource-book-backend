@@ -43,7 +43,7 @@ export = {
                 allowNull: true,
                 type: Sequelize.DATE
             }
-        })
+        });
     },
 
     /**

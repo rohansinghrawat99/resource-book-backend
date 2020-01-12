@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
-import {ResourceCreateDto} from "../dtos/resource/resource-create.dto";
-import {resourceService} from "../services/entities/resource.service";
-import {ResourceTransformer} from "../transformers/resource.tansformer";
+import { ResourceCreateDto } from "../dtos/resource/resource-create.dto";
+import { ResourceTransformer } from "../transformers/resource.tansformer";
+import { resourceService } from "../services/entities/resource.service";
 
 export class ResourceController {
     static async create(req: Request, res: Response) {

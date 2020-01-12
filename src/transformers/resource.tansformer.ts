@@ -1,9 +1,9 @@
-import {TransformerAbstract} from "./transformer.abstract";
-import {Resource} from "../models/resource.model";
-import {Dictionary} from "async";
+import { TransformerAbstract } from "./transformer.abstract";
+import { Resource } from "../models/resource.model";
+import { Dictionary } from "async";
 
 export class ResourceTransformer extends TransformerAbstract<Resource> {
-     protected _map(resource: Resource): Dictionary<any> {
+    protected _map(resource: Resource): Dictionary<any> {
         return {
             title: resource.title,
             description: resource.description,

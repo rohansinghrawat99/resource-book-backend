@@ -1,16 +1,4 @@
-import {
-    AllowNull,
-    AutoIncrement,
-    Column,
-    DataType,
-    ForeignKey,
-    Model,
-    PrimaryKey,
-    Table,
-    Unique
-} from "sequelize-typescript";
-
-import { Helpers } from "../util/helpers.util";
+import { AutoIncrement, Column, DataType, Model, PrimaryKey, Table, Unique } from "sequelize-typescript";
 
 
 @Table({

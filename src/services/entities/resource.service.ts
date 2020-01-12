@@ -1,5 +1,5 @@
-import {ResourceCreateDto} from "../../dtos/resource/resource-create.dto";
-import {Resource} from "../../models/resource.model";
+import { ResourceCreateDto } from "../../dtos/resource/resource-create.dto";
+import { Resource } from "../../models/resource.model";
 
 class ResourceService {
 
@@ -13,7 +13,7 @@ class ResourceService {
             description: data.description,
             highlight: data.highlight,
             pic_namespace: data.pic_namespace
-        })
+        });
     }
 }
 
